@@ -10,7 +10,8 @@ public class Driver_support {
 	
 	public static void initilalse_browser(String url)
 	{
-		System.getProperty("webdriver.chrome.driver", "C:\\Users\\CouponDunia\\Desktop\\vipin\\MyGit\\AutomationFramework-v1.0\\couponDunia_test\\Lib.chromedriver.exe");
+		String path ="C:\\Users\\CouponDunia\\Desktop\\vipin\\MyGit\\AutomationFramework-v1.0\\couponDunia_test\\Lib\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", path);
 		driver = new ChromeDriver();
 		driver.get(url);
 	}
