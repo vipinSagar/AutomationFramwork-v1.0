@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11091" started-at="2017-02-07T10:37:30Z" finished-at="2017-02-07T10:37:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11091" started-at="2017-02-07T10:37:30Z" finished-at="2017-02-07T10:37:41Z">
+      <class name="in.couponDunia.utils.VerifyCouponDuniaLogin1">
+        <test-method status="PASS" signature="verifyValidEmailLogin()[pri:0, instance:in.couponDunia.utils.VerifyCouponDuniaLogin1@29ee9faa]" name="verifyValidEmailLogin" duration-ms="11063" started-at="2017-02-07T16:07:30Z" finished-at="2017-02-07T16:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidEmailLogin -->
+      </class> <!-- in.couponDunia.utils.VerifyCouponDuniaLogin1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
