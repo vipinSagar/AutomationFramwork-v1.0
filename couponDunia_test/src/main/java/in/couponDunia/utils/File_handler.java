@@ -69,11 +69,22 @@ public class File_handler {
 	}
 
 	
-	// to retrieve a Data from file 
-	
-	public void get_file_data(String wsName,int row,int col)
+	// to retrieve a Data from file 	
+	public String get_file_data(String wsName,int rowNo,int colNo)
 	{
-		
+		try
+		{
+		int sheetNum = wbook.getSheetIndex(wsName);
+		sheet =wbook.getSheetAt(sheetNum);
+		row = sheet.getRow(rowNo);
+		return row.getCell(colNo).getStringCellValue();
+		}
+		catch(Exception e)
+		{
+			System.out.println("fail to fetch data!");
+			e.printStackTrace();
+			return null;
+		}
 	}
 
 }
